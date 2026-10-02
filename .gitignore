@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets + Databricks config - never commit
+.env
+*.pem
+databricks.cfg
+
+# Data and generated artifacts
+data/
+*.parquet
+*.delta/
+
+# OS
+.DS_Store
